@@ -1,4 +1,4 @@
-# Bmplatina Bitmap-app
+# Bitmap App Homebrew tap
 
 ## How do I install these formulae?
 
@@ -6,12 +6,8 @@
 
 Or `brew tap bmplatina/bitmap-app` and then `brew install <formula>`.
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "bmplatina/bitmap-app"
-brew "<formula>"
-```
+## Available formulae/cask
+* Bitmap App: `--cask bitmap-app` 
 
 ## Documentation
 
