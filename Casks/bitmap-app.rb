@@ -1,6 +1,6 @@
 cask "bitmap-app" do
-  version "1.0.0-beta.2"
-  sha256 "d2ae1fdee67babdf5e79ca0decec00ba4349b6621caf3f56c4c08b07024a2f65"
+  version "1.0.0-beta.3"
+  sha256 "13413db50468cb0096da1ab5725335d42029dd5524f2e04d262d1b22799796a1"
 
   # GitHub Releases 다운로드 URL
   url "https://github.com/bmplatina/bitmap-v0-nextron/releases/download/v#{version}/Bitmap-#{version}-arm64.dmg",
