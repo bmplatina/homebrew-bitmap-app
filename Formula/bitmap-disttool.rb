@@ -4,7 +4,7 @@ class BitmapDistTool < Formula
   homepage "https://prodbybitmap.com"
   # 유니버설 바이너리 또는 단일 압축 파일 URL
   url "https://github.com/bmplatina/desync-node/releases/download/v#{version}/bitmap_disttool_darwin_arm64",
-    verified: "github.com/bmplatina/desync-node/"
+    verified: "github.com/bmplatina/desync-node/",
     using: :nounzip
   sha256 "41c8ab9131b0674d31e2beafe917ef3fdd8a17e1fe5988dfe8753610babd984a"
   license "BSD-3-Clause"
