@@ -1,4 +1,4 @@
-class BitmapDistTool < Formula
+class BitmapDisttool < Formula
   desc "Bitmap Distribution Tool foir Bitmap Developer"
   version "1.0.0"
   homepage "https://prodbybitmap.com"
