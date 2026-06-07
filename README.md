@@ -7,7 +7,9 @@
 Or `brew tap bmplatina/bitmap-app` and then `brew install <formula>`.
 
 ## Available formulae/cask
-* Bitmap App: `--cask bitmap-app` 
+
+- Bitmap App: `--cask bitmap-app`
+- Bitmap Distribution Tool: `bitmap-disttool`
 
 ## Documentation
 
