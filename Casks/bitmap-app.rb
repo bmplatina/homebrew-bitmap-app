@@ -1,6 +1,6 @@
 cask "bitmap-app" do
-  version "1.0.0-rc"
-  sha256 "5b82fa503da684308fe58f990d25c4c1eca96a2fcf29017074179b199f845ced"
+  version "1.0.0-rc.1"
+  sha256 "ea850f59df5acfeeed5771d6646aeb2b9ab0c8d445fdc087ea3741233542c1f8"
 
   # GitHub Releases 다운로드 URL
   url "https://github.com/bmplatina/bitmap-v0-nextron/releases/download/v#{version}/Bitmap-#{version}-arm64.dmg",
@@ -9,6 +9,8 @@ cask "bitmap-app" do
   name "Bitmap"
   desc "Digital artists platform Powered by Bitmap Production"
   homepage "https://prodbybitmap.com"
+
+  depends_on arch: :arm64
 
   # DMG 내부의 어떤 .app 파일을 macOS의 /Applications 폴더로 이동시킬지 지정
   app "Bitmap.app"
