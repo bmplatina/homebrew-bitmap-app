@@ -39,6 +39,7 @@ class BitmapDisttool < Formula
       "bitmap_disttool_v#{version}_linux_amd64"
     end
 
+    chmod 0755, binary_name
     bin.install binary_name => "bitmap-disttool"
   end
 
