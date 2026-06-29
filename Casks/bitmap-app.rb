@@ -15,6 +15,11 @@ cask "bitmap-app" do
   # DMG 내부의 어떤 .app 파일을 macOS의 /Applications 폴더로 이동시킬지 지정
   app "Bitmap.app"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-c", "#{appdir}/Bitmap.app"]
+  end
+
   # (선택 사항) 앱 삭제(Uninstall) 시 함께 지워질 설정 파일 및 캐시 경로
   zap trash: [
     "~/Library/Application Support/bitmap",

@@ -1,6 +1,6 @@
 class BitmapDisttool < Formula
   desc "Bitmap Distribution Tool for Bitmap Developer"
-  version "1.0.1"
+  version "1.0.2"
   homepage "https://prodbybitmap.com"
   license "BSD-3-Clause"
 
@@ -9,7 +9,7 @@ class BitmapDisttool < Formula
       url "https://github.com/bmplatina/desync-node/releases/download/v#{version}/bitmap_disttool_v#{version}_darwin_arm64",
         verified: "github.com/bmplatina/desync-node/",
         using: :nounzip
-      sha256 "b77f2c9c5389a2bb75c6bd40334643eb458616e5f2cff120e3c760312f47a049"
+      sha256 "8f46e02492467609515161a11d3cec82b88be324a5a83a2bc61e189f0fc105e0"
     end
   end
 
@@ -18,7 +18,7 @@ class BitmapDisttool < Formula
       url "https://github.com/bmplatina/desync-node/releases/download/v#{version}/bitmap_disttool_v#{version}_linux_amd64",
         verified: "github.com/bmplatina/desync-node/",
         using: :nounzip
-      sha256 "d8b02443802be7b5c6b9ebe2a8bd3f7d09a5ccdcce41f3bffecf09ecd11d561e"
+      sha256 "944862e42d51f5179e9f429a9b0cea72a0be068f9d2cd3c26d8742bf34fb6adc"
     end
   end
 
