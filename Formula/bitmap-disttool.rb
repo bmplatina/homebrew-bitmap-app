@@ -5,7 +5,7 @@ class BitmapDisttool < Formula
   license "BSD-3-Clause"
 
   on_macos do
-    on_arm do
+    if Hardware::CPU.arm?
       url "https://github.com/bmplatina/desync-node/releases/download/v#{version}/bitmap_disttool_v#{version}_darwin_arm64",
         verified: "github.com/bmplatina/desync-node/",
         using: :nounzip
@@ -14,7 +14,7 @@ class BitmapDisttool < Formula
   end
 
   on_linux do
-    on_intel do
+    if Hardware::CPU.intel?
       url "https://github.com/bmplatina/desync-node/releases/download/v#{version}/bitmap_disttool_v#{version}_linux_amd64",
         verified: "github.com/bmplatina/desync-node/",
         using: :nounzip
